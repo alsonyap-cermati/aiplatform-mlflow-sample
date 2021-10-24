@@ -1,0 +1,7 @@
+name: container
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.3
+  - mlflow=1.19.0

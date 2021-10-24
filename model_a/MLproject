@@ -1,0 +1,9 @@
+name: model_a
+
+conda_env: environment.yaml
+
+entry_points:
+  main:
+    parameters:
+      epochs: { type: float, default: 10 }
+    command: "python train.py --epochs {epochs}"
